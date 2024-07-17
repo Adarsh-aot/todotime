@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#root {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.todo-item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.timer-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.timer-controls button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.subtasks {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.subtask-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.subtask-item p {
+    margin: 0;
+}

@@ -1,6 +1,6 @@
 # To-Do List with Stopwatch
 
-This is a simple web application for managing tasks with a stopwatch feature to track time spent on each task.
+This is a simple web application for managing tasks with a stopwatch feature to track time spent on each task [https://github.com/Adarsh-aot/todotime.git](https://github.com/Adarsh-aot/todotime.git).
 
 ## Features
 
@@ -21,8 +21,7 @@ To run this application locally:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/Adarsh-aot/todotime.git](https://github.com/Adarsh-aot/todotime.git)
-   ```
+   git clone https://github.com/Adarsh-aot/todotime.git
    Open index.html in your web browser.
 Usage
 Adding a Task:

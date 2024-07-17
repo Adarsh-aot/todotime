@@ -24,18 +24,4 @@ To run this application locally:
    ```bash
    git clone https://github.com/Adarsh-aot/todotime.git
    Open index.html in your web browser.
-Usage
-Adding a Task:
-
-Enter a task description in the input field.
-Click Add Task.
-Managing Tasks:
-
-Start the timer for a task by clicking Start.
-Pause the timer by clicking Pause.
-Delete a task by clicking Delete.
-Adding Subtasks:
-
-Click Add Subtask for a task.
-Enter the subtask description in the prompt.
-Example
+```
